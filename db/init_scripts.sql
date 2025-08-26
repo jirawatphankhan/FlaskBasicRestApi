@@ -1,0 +1,2 @@
+CREATE TABLE users(id varchar(36) PRIMARY KEY NOT NULL, name varchar(100) NOT NULL, age int NOT NULL, created_at datetime);
+CREATE TABLE products(id varchar(36) PRIMARY KEY NOT NULL, name varchar(100) NOT NULL, created_at datetime);

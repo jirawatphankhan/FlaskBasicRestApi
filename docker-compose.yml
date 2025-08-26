@@ -1,0 +1,10 @@
+services:
+  db:
+    image: db/boss
+    container_name: db_mysql
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=admin
+      - MYSQL_DATABASE=crud
+    
